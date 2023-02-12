@@ -1,0 +1,52 @@
+main {
+  background-color: $main-bg;
+  color: $main-color;
+  height: 100vh;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    border-bottom: 0.3px solid gray;
+
+    gap: 40px;
+    .overview {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border-bottom: 2px solid #ec765c;
+
+      padding-bottom: 10px;
+    }
+    .repositories {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      padding-bottom: 10px;
+    }
+    .projects {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding-bottom: 10px;
+    }
+    .packages {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding-bottom: 10px;
+    }
+    .stars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
