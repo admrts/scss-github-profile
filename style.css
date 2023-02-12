@@ -1,7 +1,7 @@
 .header {
   display: flex;
   height: 7vh;
-  background-color: #24292e;
+  background-color: #2d333b;
   align-items: center;
   gap: 10px;
 }
@@ -56,6 +56,7 @@
   justify-content: space-between;
   height: 100%;
   color: rgb(204, 201, 201);
+  font-weight: 500;
 }
 .header-right-nav-left {
   margin-left: 30px;
