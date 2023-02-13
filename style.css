@@ -396,12 +396,6 @@ main section .right .pin-row-1 .left-pin .project-lang .lang {
   margin-top: 50px;
   font-size: 14px;
 }
-main section .right .pin-row-1 .right-pin {
-  border: 0.3px solid rgba(173, 186, 199, 0.4);
-  height: 100%;
-  width: 48%;
-  border-radius: 10px;
-}
 
 footer {
   height: 10vh;
