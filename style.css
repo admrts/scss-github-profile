@@ -115,7 +115,6 @@
 main {
   background-color: #22272d;
   color: rgb(204, 201, 201);
-  height: 100vh;
 }
 main nav {
   display: flex;
@@ -160,6 +159,272 @@ main nav .stars {
   justify-content: center;
   gap: 10px;
   padding-bottom: 10px;
+}
+main section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+main section .left {
+  height: 100%;
+  width: 30%;
+  padding-left: 100px;
+}
+main section .left-img {
+  height: 40%;
+}
+main section .left-img img {
+  height: 100%;
+  width: 90%;
+  border-radius: 50%;
+  margin-top: -30px;
+  border: 0.3px solid lightgray;
+}
+main section .left-name {
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+main section .left-username {
+  font-weight: 300;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
+main section .left-job {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+main section .left-edit-button {
+  margin-top: 20px;
+}
+main section .left-edit-button a {
+  text-decoration: none;
+  color: rgb(204, 201, 201);
+  background-color: #444c56;
+  border: 0.1px solid #5e6a78;
+  padding: 7px 100px;
+  border-radius: 7px;
+}
+main section .left-edit-button a:hover {
+  opacity: 0.5;
+}
+main section .left .followers {
+  margin-top: 25px;
+}
+main section .left .followers label {
+  font-weight: 100;
+}
+main section .left .followers label:hover {
+  color: rgb(70, 70, 234);
+  cursor: pointer;
+}
+main section .left .followers label span {
+  font-weight: bold;
+}
+main section .left .location {
+  color: #adbac7;
+  margin-top: 40px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .left .twitter {
+  color: #adbac7;
+  margin-top: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .left .linkedin {
+  color: #adbac7;
+  margin-top: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.3px solid rgba(173, 186, 199, 0.4);
+}
+main section .right {
+  height: 100%;
+  width: 70%;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+main section .right .readme {
+  position: relative;
+  width: 100%;
+  border-radius: 7px;
+  height: auto;
+  border: 0.3px solid rgba(173, 186, 199, 0.4);
+  padding: 40px;
+}
+main section .right .readme .bi-pen {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+main section .right .readme-name {
+  color: #adbac7;
+}
+main section .right .readme-hello {
+  color: #adbac7;
+  margin-top: 5px;
+  border-bottom: 0.3px solid rgba(173, 186, 199, 0.4);
+  padding-bottom: 10px;
+}
+main section .right .readme-city {
+  margin: 20px 0 0 10px;
+}
+main section .right .readme-mail {
+  margin: 10px 0 0 10px;
+}
+main section .right .readme-work {
+  margin: 10px 0 0 10px;
+}
+main section .right .readme h3 {
+  margin-top: 20px;
+}
+main section .right .readme .skills-logo {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+main section .right .readme .skills-logo-swift {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .skills-logo-js {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .skills-logo-react {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .skills-logo-html {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .skills-logo-css {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .skills-logo-figma {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .socials-logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+main section .right .readme .socials-logo-instagram {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .socials-logo-linkedin {
+  width: 35px;
+  height: 35px;
+}
+main section .right .readme .socials-logo-twitter {
+  width: 35px;
+  height: 35px;
+}
+main section .right .pinned {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0px 20px;
+}
+main section .right .pinned p {
+  font-size: 15px;
+}
+main section .right .pin-row-1 {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main section .right .pin-row-1 .left-pin {
+  border: 0.3px solid rgba(173, 186, 199, 0.4);
+  height: 100%;
+  width: 48%;
+  border-radius: 10px;
+  padding: 10px;
+}
+main section .right .pin-row-1 .left-pin .project-name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+main section .right .pin-row-1 .left-pin .project-name a {
+  color: #539bf5;
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+  font-size: 14px;
+}
+main section .right .pin-row-1 .left-pin .project-name a:hover {
+  border-bottom: 1px solid rgba(83, 155, 245, 0.4);
+}
+main section .right .pin-row-1 .left-pin .project-name label {
+  border: 0.3px solid rgba(173, 186, 199, 0.4);
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+main section .right .pin-row-1 .left-pin .project-lang {
+  display: flex;
+  gap: 10px;
+}
+main section .right .pin-row-1 .left-pin .project-lang .color {
+  width: 12px;
+  height: 12px;
+  background: rgb(253, 73, 73);
+  border-radius: 50%;
+  margin: 53px 0 0 20px;
+}
+main section .right .pin-row-1 .left-pin .project-lang .lang {
+  margin-top: 50px;
+  font-size: 14px;
+}
+main section .right .pin-row-1 .right-pin {
+  border: 0.3px solid rgba(173, 186, 199, 0.4);
+  height: 100%;
+  width: 48%;
+  border-radius: 10px;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  border-top: 1px solid rgba(173, 186, 199, 0.4);
+  background-color: #22272d;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+footer .footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(204, 201, 201);
+}
+footer .footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 100px;
+  color: #539bf5;
 }
 
 * {

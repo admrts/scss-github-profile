@@ -1,0 +1,23 @@
+footer {
+  height: 10vh;
+  width: 100%;
+  border-top: 1px solid rgba($color: #adbac7, $alpha: 0.4);
+  background-color: $main-bg;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  .footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $main-color;
+  }
+  .footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 100px;
+    color: #539bf5;
+  }
+}

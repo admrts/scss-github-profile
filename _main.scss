@@ -1,7 +1,7 @@
 main {
   background-color: $main-bg;
   color: $main-color;
-  height: 100vh;
+
   nav {
     display: flex;
     align-items: center;
@@ -47,6 +47,251 @@ main {
       justify-content: center;
       gap: 10px;
       padding-bottom: 10px;
+    }
+  }
+  section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .left {
+      height: 100%;
+      width: 30%;
+      padding-left: 100px;
+      &-img {
+        height: 40%;
+        img {
+          height: 100%;
+          width: 90%;
+          border-radius: 50%;
+          margin-top: -30px;
+          border: 0.3px solid lightgray;
+        }
+      }
+      &-name {
+        font-weight: 300;
+        margin-bottom: 2px;
+      }
+      &-username {
+        font-weight: 300;
+        margin-bottom: 20px;
+        opacity: 0.6;
+      }
+      &-job {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 5px;
+      }
+      &-edit-button {
+        margin-top: 20px;
+        a {
+          text-decoration: none;
+          color: $main-color;
+          background-color: #444c56;
+          border: 0.1px solid #5e6a78;
+          padding: 7px 100px;
+
+          border-radius: 7px;
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+      .followers {
+        margin-top: 25px;
+
+        label {
+          font-weight: 100;
+          &:hover {
+            color: rgb(70, 70, 234);
+            cursor: pointer;
+          }
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+      .location {
+        color: #adbac7;
+        margin-top: 40px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .twitter {
+        color: #adbac7;
+        margin-top: 5px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .linkedin {
+        color: #adbac7;
+        margin-top: 5px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 10px;
+        border-bottom: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+      }
+    }
+    .right {
+      height: 100%;
+      width: 70%;
+      padding-right: 100px;
+      margin-top: 20px;
+      .readme {
+        position: relative;
+        .bi-pen {
+          position: absolute;
+          top: 30px;
+          right: 30px;
+        }
+        width: 100%;
+        border-radius: 7px;
+        height: auto;
+        border: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+        padding: 40px;
+        &-name {
+          color: #adbac7;
+        }
+        &-hello {
+          color: #adbac7;
+          margin-top: 5px;
+          border-bottom: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+          padding-bottom: 10px;
+        }
+        &-city {
+          margin: 20px 0 0 10px;
+        }
+        &-mail {
+          margin: 10px 0 0 10px;
+        }
+        &-work {
+          margin: 10px 0 0 10px;
+        }
+        h3 {
+          margin-top: 20px;
+        }
+        .skills-logo {
+          display: flex;
+          gap: 5px;
+          margin-top: 10px;
+          &-swift {
+            width: 35px;
+            height: 35px;
+          }
+          &-js {
+            width: 35px;
+            height: 35px;
+          }
+          &-react {
+            width: 35px;
+            height: 35px;
+          }
+          &-html {
+            width: 35px;
+            height: 35px;
+          }
+          &-css {
+            width: 35px;
+            height: 35px;
+          }
+          &-figma {
+            width: 35px;
+            height: 35px;
+          }
+        }
+        .socials-logo {
+          display: flex;
+          gap: 10px;
+          margin-top: 10px;
+          &-instagram {
+            width: 35px;
+            height: 35px;
+          }
+          &-linkedin {
+            width: 35px;
+            height: 35px;
+          }
+          &-twitter {
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+      .pinned {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 0px 20px;
+        p {
+          font-size: 15px;
+        }
+      }
+      .pin-row-1 {
+        height: 150px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        .left-pin {
+          border: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+          height: 100%;
+          width: 48%;
+          border-radius: 10px;
+          padding: 10px;
+          .project-name {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding-left: 20px;
+            margin-top: 10px;
+            a {
+              color: #539bf5;
+              text-decoration: transparent;
+              font-size: 14px;
+              &:hover {
+                border-bottom: 1px solid rgba($color: #539bf5, $alpha: 0.4);
+              }
+            }
+            label {
+              border: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+              border-radius: 30px;
+              padding: 5px 10px;
+              font-size: 12px;
+            }
+          }
+          .project-lang {
+            display: flex;
+            gap: 10px;
+
+            .color {
+              width: 12px;
+              height: 12px;
+              background: rgb(253, 73, 73);
+              border-radius: 50%;
+              margin: 53px 0 0 20px;
+            }
+            .lang {
+              margin-top: 50px;
+              font-size: 14px;
+            }
+          }
+        }
+        .right-pin {
+          border: 0.3px solid rgba($color: #adbac7, $alpha: 0.4);
+          height: 100%;
+          width: 48%;
+          border-radius: 10px;
+        }
+      }
     }
   }
 }
